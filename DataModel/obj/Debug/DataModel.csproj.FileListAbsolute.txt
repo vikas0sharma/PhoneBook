@@ -1,0 +1,7 @@
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\DataModel\bin\Debug\DataModel.dll.config
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\DataModel\bin\Debug\DataModel.dll
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\DataModel\bin\Debug\DataModel.pdb
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\DataModel\bin\Debug\EntityFramework.dll
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\DataModel\bin\Debug\EntityFramework.xml
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\DataModel\obj\Debug\DataModel.dll
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\DataModel\obj\Debug\DataModel.pdb

@@ -1,0 +1,4 @@
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\Entities\bin\Debug\Entities.dll
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\Entities\bin\Debug\Entities.pdb
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\Entities\obj\Debug\Entities.dll
+C:\Users\vikas.sharma\documents\visual studio 2013\Projects\PhoneBook\Entities\obj\Debug\Entities.pdb
