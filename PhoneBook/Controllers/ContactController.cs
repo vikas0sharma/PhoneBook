@@ -38,24 +38,37 @@ namespace PhoneBook.Controllers
         }
 
         // GET api/contact/5
-        public string Get(int id)
+        public HttpResponseMessage Get(int id)
         {
-            return "value";
+            var contact = _contactServices.GetContactById(id);
+            if(contact!=null)
+                return Request.CreateResponse(HttpStatusCode.OK, contact);
+            return Request.CreateErrorResponse(HttpStatusCode.NotFound, "No contact found for this id");
+
         }
 
         // POST api/contact
-        public void Post([FromBody]string value)
+        public int Post([FromBody]ContactEntity contactEntity)
         {
+            return _contactServices.AddContact(contactEntity);
         }
 
         // PUT api/contact/5
-        public void Put(int id, [FromBody]string value)
+        public bool Put(int id, [FromBody]ContactEntity contactEntity)
         {
+            if (id > 0)
+            {
+                return _contactServices.UpdateContact(id, contactEntity);
+            }
+            return false;
         }
 
         // DELETE api/contact/5
-        public void Delete(int id)
+        public bool Delete(int id)
         {
+            if (id > 0)
+                return _contactServices.DeleteContact(id);
+            return false;
         }
     }
 }

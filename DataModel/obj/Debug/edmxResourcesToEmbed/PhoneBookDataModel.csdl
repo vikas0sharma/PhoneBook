@@ -5,8 +5,8 @@
       <PropertyRef Name="ContactId" />
     </Key>
     <Property Name="ContactId" Type="Int32" Nullable="false" />
-    <Property Name="ContactName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-    <Property Name="MobileNo" Type="Int64" />
+    <Property Name="ContactName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MobileNo" Type="Int32" />
   </EntityType>
   <EntityType Name="User">
     <Key>

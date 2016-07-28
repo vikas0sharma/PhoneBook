@@ -35,7 +35,7 @@ namespace DataModel.UnitOfWork
         {
             try
             {
-                this._context.SaveChanges();
+                _context.SaveChanges();
             }
             catch (DbEntityValidationException)
             {

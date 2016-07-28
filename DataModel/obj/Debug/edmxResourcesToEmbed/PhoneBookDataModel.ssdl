@@ -4,9 +4,9 @@
     <Key>
       <PropertyRef Name="ContactId" />
     </Key>
-    <Property Name="ContactId" Type="int" Nullable="false" />
-    <Property Name="ContactName" Type="varchar" MaxLength="100" />
-    <Property Name="MobileNo" Type="bigint" />
+    <Property Name="ContactId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="MobileNo" Type="int" />
   </EntityType>
   <EntityType Name="Users">
     <Key>

@@ -16,6 +16,6 @@ namespace DataModel
     {
         public int ContactId { get; set; }
         public string ContactName { get; set; }
-        public Nullable<long> MobileNo { get; set; }
+        public Nullable<int> MobileNo { get; set; }
     }
 }

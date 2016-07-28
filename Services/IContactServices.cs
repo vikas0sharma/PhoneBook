@@ -9,7 +9,10 @@ namespace Services
 {
     public interface IContactServices
     {
-        //ContactEntity GetContactById(int contactId);
+        ContactEntity GetContactById(int contactId);
         IEnumerable<ContactEntity> GetAllContacts();
+        int AddContact(ContactEntity contactEnity);
+        bool UpdateContact(int contactId, ContactEntity contactEntity);
+        bool DeleteContact(int contactId);
     }
 }
